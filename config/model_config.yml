@@ -1,0 +1,7 @@
+epochs: 120
+batch_size: 16
+img_size: 640
+lr0: 0.001
+patience: 20
+optimizer: adam
+augment: true

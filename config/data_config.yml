@@ -1,0 +1,8 @@
+train: ./data/train
+test: ./data/test
+val: ./data/valid
+
+source: https://universe.roboflow.com/ibnu-h3cda/avocado-g9fsl
+
+nc: 1
+names: ['aguacate_hass']
