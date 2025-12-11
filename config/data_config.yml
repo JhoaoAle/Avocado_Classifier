@@ -1,6 +1,7 @@
-train: ./data/train
-test: ./data/test
-val: ./data/valid
+#train: ../data/train/images
+train: ../data/synthetic/images
+test: ../data/test/images
+val: ../data/valid/images
 
 source: https://universe.roboflow.com/ibnu-h3cda/avocado-g9fsl
 

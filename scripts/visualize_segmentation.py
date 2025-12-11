@@ -71,11 +71,11 @@ def main():
 
     img_path = os.path.join("data", split, "images", fname)
     seg_label_path = os.path.join(
-        "data", split, "labels_segmentation", fname.replace(".jpg", ".txt").replace(".png", ".txt")
+        "data", split, "labels", fname.replace(".jpg", ".txt").replace(".png", ".txt")
     )
 
     if not os.path.exists(seg_label_path):
-        print(f"❌ No segmentation found for {fname}")
+        print(f"No segmentation found for {fname}")
         return
 
     img = cv2.imread(img_path)
