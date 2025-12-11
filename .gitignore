@@ -331,6 +331,7 @@ venv/
 __pycache__/
 data/test 
 data/train
+data/synthetic
 *.log
 data/valid
 *.pyc
